@@ -502,6 +502,7 @@ text-decoration: none;
     display: block;
     padding-left: 0;
 
+
 }
 
 .image-footer{
@@ -526,7 +527,7 @@ text-decoration: none;
     
 .web-icon-footer{
         background-position: center;
-        
+        text-align: center;
         align-items: center;
         fill: var(--prime-white-color);
     }
