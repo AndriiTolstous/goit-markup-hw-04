@@ -145,7 +145,7 @@
     color: var(--prime-blu-color)
 }
 .telephone{
-    margin-left: 148px;
+    margin-left: 30px;
 }
 
 .auth-icon {
@@ -413,14 +413,17 @@ text-decoration: none;
 }
 
 .image{
-    display: block;
+    
     text-align: center;
     padding: 0;
     border: none;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .image:hover {
@@ -515,7 +518,7 @@ text-decoration: none;
 }
 
 .image-footer{
-    display: block;
+    display: flex;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.1);
     background-position: center;
@@ -524,7 +527,11 @@ text-decoration: none;
     border: none;
     width: 44px;
     height: 44px;
-    border-radius: 50%;}
+    border-radius: 50%;display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 
 .image-footer:hover {
         background-color: var(--prime-blu-color);
@@ -579,12 +586,12 @@ text-decoration: none;
 width: 380px;
 margin-right: 30px;
 border: 1px solid #EEEEEE;
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+    
 text-decoration: none;
 }
 
 .feathers-work:hover {
-    background-color: var(--prime-blu-color);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .feathers-work:nth-child(3n) {
 margin-right: 0;
